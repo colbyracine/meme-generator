@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Antic Didone", serif;
+  font-size: 65px;
+  font-weight: 100;
+  animation: fadeInAnimation ease 1500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+div {
+  animation: fadeInAnimation ease 1500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  font-family: "Antic Didone";
+}
+
+#displayImage #text {
+  color: white;
+}
+
+#top {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 5em, 5em, black;
+  position: relative;
+  top: 0px;
+  font-size: 150%;
+  text-align: center;
+}
+
+#bottom {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 5px, 5px, black;
+  position: relative;
+  top: 60%;
+  font-size: 150%;
+  text-align: center;
+}
+
+#fileInput {
+  font-family: "Antic Didone";
+}
+
+#displayImage {
+  width: 375px;
+  height: 400px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+#memeOutput {
+  color: white;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
